@@ -7,7 +7,10 @@ int reverse(int a,int rev=0 ) {
     return reverse(a/10,rev*10+a%10);
 }
 int main() {
-    cout<<"reversed value: "<<reverse(1234);
+    int n;
+    cout<<"enter:";
+    cin>>n;
+    cout<<"reversed value: "<<reverse(n);
 
     return 0;
 }
